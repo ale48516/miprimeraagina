@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  div{
+    background-color: blueviolet;
+    height: 100px;
+  }
+  body> div: :nth-child(1){
+    background-color: rgb(221, 196, 245);
+    height: 300px;
+  }
+  body>div: :nth-child(2){
+    background-color: rgb(170, 104, 233);
+    height: 500px;
+}
+body>div:nth-child(3){
+    background-color: black;
+    height: 200px;
+}

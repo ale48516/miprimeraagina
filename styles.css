@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+}
+header{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    width:100%
+    height:100%
+    background-color: yellow;
+}     
+
+main{
+    background-color:brown;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    padding-block: 1%;
+    
+}
+
+
+.fuente-clara {color: #eeeeee;}
+
+.fuente-oscura {color: #22211f;}
+
+.fuente-acento {color: #e4ab31;
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(56, 64, 66);
+    font-size;1%;
+    
+}
+img{
+    float:clear:right
+}
+.centrar{
+    display: flex;
+    justify-contect; center;
+    align-items: center;
+}
+.position{
+    float: right;
+}
+
+footer{
+    padding: 20px;%;
+    background-color: rgb(250, 245, 245);
+    font-size: 30px;
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button{
+    color: brown;
+    padding: 20px;
+    text-align: center;
+    border: 2px; solid #5d6063; /*Dark gray*/
+    border-radius: 50px;
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+    width: 100%;
+    height;100%;
+}
+
+nav ul li a{
+    font-style: oblique;
+    color: red;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+}
+.sabermás{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #bebe2b;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    }
+
+.contacto{
+    font-style: italic;
+    background-color: #d34493;
+    }
+
+.google{
+    background-color: black;
+}
+a:hover{
+    background-color: yellowgreen;
+}
+
+#footer.div.h2{ color: blue;
+}
+.pagina{clear: none;
+    }
+    /* ------------- CSS General ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+  }
+  
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  * ------------- Campos del Formulario ------------- */
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] 
+ {
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+
+
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+}
+/* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+  }
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row textarea {
+      width: 250px;
+    }
+    form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+
+  color: #ffffff;
+  background-color: #5995da;
+
+
+  border: none;
+  border-radius: 3px;
+
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+
+.form-row button:hover {
+  background-color: #76aeed;
+}
+
+
+.form-row button:active {
+  background-color: #407fc7;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
